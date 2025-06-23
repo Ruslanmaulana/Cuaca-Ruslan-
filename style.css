@@ -1,0 +1,53 @@
+✅ style.css
+css
+Copy
+Edit
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.bio h2 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  margin-top: 50px;
+}
